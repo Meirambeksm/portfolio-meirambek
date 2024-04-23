@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт визитка</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <ul class="header__list">
+        <li class="header__item"><a href="#about">Обо мне</a></li>
+        <li class="header__item"><a href="#education">Образование</a></li>
+        <li class="header__item"><a href="#experience">Опыт работы</a></li>
+        <li class="header__item"><a href="#hobby">Хобби</a></li>
+        <li class="header__item">
+          <a href="#story">Как я стал разработчиком</a>
+        </li>
+        <li class="header__item"><a href="#contact">Контакты</a></li>
+      </ul>
+    </header>
+
+    <main class="content">
+      <aside class="sidebar">
+        <img src="my-photo.jpeg" alt="avatar" width="400px" />
+        <div class="sidebar__phone">
+          <img src="/phone-logo.svg" alt="" />
+          <a href="phone" title="phone">+7 777 77 77</a>
+        </div>
+        <div class="sidebar__email">
+          <img src="/email-logo.svg" alt="" />
+          <a href="mail.ru" title="email">meirambek@mail.ru</a>
+        </div>
+        <div class="sidebar__social-media">
+          <img src="/linkedin-logo.svg" alt="" />
+          <a href="linkedin.com" title="linkedin">Meirambek Mukhtarov</a>
+        </div>
+      </aside>
+
+      <section class="info">
+        <h1 class="main-heading">Мейрамбек Мухтаров. Фронтенд разработчик</h1>
+
+        <article class="info__about">
+          <h2 class="sub-heading" id="about">Обо мне</h2>
+          <p class="text">
+            Я женат, у меня трое детей и мне <strong>34 года</strong>. Родился в
+            Атырауской области, Казахстан. В данное время живу в городе Алматы,
+            Казахстан.
+          </p>
+        </article>
+
+        <article class="info__education">
+          <h2 class="sub-heading" id="education">Образование</h2>
+          <p class="text">
+            В 2011 году окончил Университет Нархоз по специальности
+            <em>"Бухгалтерский учет и аудит"</em> в городе Алматы, Казахстан
+          </p>
+        </article>
+
+        <article class="info__experience">
+          <h2 class="sub-heading" id="experience">Опыт работы</h2>
+          <ul class="content__list">
+            <li class="content__item">
+              2011-2013: финансовый специалист в ТОО КазСтройСтекло
+            </li>
+            <li class="content__item">
+              2014-2016: бухгалтер в международной компании AECOM
+            </li>
+            <li class="content__item">
+              2016-2022: старший налоговый консультант в аудиторской фирме KPMG
+            </li>
+            <li class="content__item">
+              2022-текущее время: нахожусь в gap year для изучения фронтенд
+              разработки
+            </li>
+          </ul>
+        </article>
+
+        <article class="info__hobby">
+          <h2 class="sub-heading" id="hobby">Хобби</h2>
+          <ul class="content__list">
+            <li class="content__item">Катание на лыжах</li>
+            <li class="content__item">Хайкинг (прогулки по горам)</li>
+            <li class="content__item">Шахматы</li>
+            <li class="content__item">Книги</li>
+          </ul>
+        </article>
+
+        <article class="info__story">
+          <h2 class="sub-heading" id="story">Как я стал разработчиком</h2>
+          <ol class="content__ordered-list">
+            <li class="content__item">
+              В мае 2023 года начал обучение фронтенд разработки на разных
+              платформах (udemy.com, youtube, codecademy)
+            </li>
+            <li class="content__item">
+              С октября 2023 года выполнял разные проекты по HTML, CSS и
+              Javascript
+            </li>
+            <li class="content__item">
+              С марта 2024 года начал обучаться на платформе
+              <strong>skillfactory</strong>
+            </li>
+          </ol>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <a href="skillfactory.ru">Skillfactory.ru</a><span> • 2024</span>
+    </footer>
+  </body>
+</html>
